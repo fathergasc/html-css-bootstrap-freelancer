@@ -1,0 +1,43 @@
+/* debug rules */
+
+.debug .col {
+    border: 1px solid red;
+}
+
+/* fine debug rules */
+
+body {
+    font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+/* common rules */
+
+.green {
+    background-color: #1abc9c;
+}
+
+header .container-fluid .row {
+    height: 80px;
+}
+
+
+/* header */
+header .row {
+    background-color: #2c3e50;
+}
+
+
+/* main */
+
+/* jumbo */
+#jumbo img {
+    width: 50%;
+    max-width: 250px;
+}
+
+.white_line {
+    background-color: white;
+    width: 10vw;
+    height: 3px;
+    border-radius: 10px;
+}
