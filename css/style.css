@@ -64,3 +64,16 @@ header .row {
     border-radius: 10px;
 }
 
+/* about */
+
+#about .container {
+    max-width: 400px;
+}
+
+#paragraph .row {
+    max-width: 400px;
+}
+
+#paragraph-row button {
+    border-color: white;
+}
