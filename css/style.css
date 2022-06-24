@@ -1,14 +1,6 @@
-:root {
-    
+html {
+    font-size: 1rem;
 }
-
-/* debug rules */
-
-.debug .col {
-    border: 1px solid red;
-}
-
-/* fine debug rules */
 
 body {
     font-family:  "Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -99,3 +91,18 @@ header {
 #send-btn:hover {
     background-color: #095a4a; !important
 }
+
+
+
+@media screen and (min-width: 992px) {
+    html {
+        font-size: 1.4rem;
+    }
+}
+
+
+/* debug rules */
+
+
+
+/* fine debug rules */
