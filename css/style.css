@@ -20,13 +20,13 @@ body {
     background-color: #1abc9c;
 }
 
-header .container-fluid .row {
+header .container .row {
     height: 60px;
 }
 
 
 /* header */
-header .row {
+header {
     background-color: #2c3e50;
 }
 
