@@ -93,10 +93,36 @@ header {
 }
 
 
+/* footer */
+
+footer {
+    background-color: #3a546d;
+}
+
+.gray_blue {
+    background-color: #2c3e50;
+}
+
+.text_green {
+    color:#1abc9c
+}
+
+.icon_foot {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px solid white;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.font_size_point7 {
+    font-size: 0.7rem;
+}
 
 @media screen and (min-width: 992px) {
     html {
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 }
 
