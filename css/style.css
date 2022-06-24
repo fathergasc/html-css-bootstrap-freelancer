@@ -21,7 +21,7 @@ body {
 }
 
 header .container-fluid .row {
-    height: 80px;
+    height: 60px;
 }
 
 
@@ -47,6 +47,7 @@ header .row {
 .white_line {
     background-color: white;
     width: 10vw;
+    max-width: 100px;
     height: 3px;
     border-radius: 10px;
 }
@@ -56,6 +57,7 @@ header .row {
 .black_line {
     background-color: rgb(0, 0, 0);
     width: 10vw;
+    max-width: 100px;
     height: 3px;
     border-radius: 10px;
 }
@@ -66,14 +68,34 @@ header .row {
 
 /* about */
 
-#about .container {
-    max-width: 400px;
-}
-
-#paragraph .row {
-    max-width: 400px;
-}
-
 #paragraph-row button {
     border-color: white;
+}
+
+#download_btn:hover {
+    background-color: #095a4a; !important
+}
+
+/* contact */
+
+.noborders {
+    border: none;
+    outline: none;
+}
+
+.border-bot {
+    border-bottom: 1px solid lightgray;
+}
+
+.no_ps {
+    padding-left: 0;
+}
+
+::placeholder { 
+    color: #586674;
+    opacity: 1; 
+}
+
+#send-btn:hover {
+    background-color: #095a4a; !important
 }
